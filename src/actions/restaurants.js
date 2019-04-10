@@ -1,6 +1,7 @@
-export const addRestaurant = (restaurant) => {
+export const addRestaurant = restaurant => {
+  console.log(restaurant);
   return {
-    type: 'ADD_RESTAURANT',
+    type: "ADD_RESTAURANT",
     restaurant
   };
 };
